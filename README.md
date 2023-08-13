@@ -19,7 +19,7 @@ Este projeto é um simples scanner de portas e rede desenvolvido em Python. Ele 
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/alexsandropsilva/port_scan.git
+   git clone https://github.com/alexsandropsilva/port_scan_python.git
 
 2. Entre no diretório do projeto:
    ```bash
