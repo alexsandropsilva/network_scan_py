@@ -23,7 +23,7 @@ Este projeto é um simples scanner de portas e rede desenvolvido em Python. Ele 
 
 2. Entre no diretório do projeto:
    ```bash
-   cd port_scan
+   cd port_scan_python
 
 3. Instale as dependências necessárias:
    ```bash
