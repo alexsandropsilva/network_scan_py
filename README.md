@@ -16,13 +16,13 @@ Este projeto oferece uma ferramenta simples e eficaz para realizar varreduras de
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/alexsandropsilva/port_scan_python/
-    cd port_scan_python
+    git clone https://github.com/alexsandropsilva/network_scan_py/
+    cd network_scan_py
     ```
 
 2. Execute o script:
     ```bash
-    python3 port_scan.py
+    python3 network_scan.py
     ```
 
 3. Siga as instruções no terminal para escolher uma opção de varredura.
