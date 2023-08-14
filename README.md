@@ -1,41 +1,32 @@
-# Port & Network Scanner
+# Network Scanner
 
-Este projeto é um simples scanner de portas e rede desenvolvido em Python. Ele utiliza a biblioteca `socket` para a verificação de portas e a biblioteca `nmap` para a varredura de rede.
+Este projeto oferece uma ferramenta simples e eficaz para realizar varreduras de rede, identificando hosts ativos e portas abertas.
 
-## 🌟 Recursos
+## Características
 
-- **Varredura de portas**: Verifica as portas abertas de um host específico.
-- **Varredura de rede**: Lista os hosts ativos em uma determinada faixa de rede e coleta informações básicas sobre eles.
+- **Scan de Portas**: Identifica portas abertas em um host específico.
+- **Scan de Rede com Descoberta de Portas**: Varre todos os hosts em um range de IPs e identifica quais têm portas abertas.
+- **Verificação de Hosts Ativos**: Identifica quais hosts estão ativos em um range de IPs.
 
-## 🔧 Instalação
+## Requisitos
 
-### Pré-requisitos
+- Python 3.x
 
-- Python 3
-- Nmap
+## Uso
 
-### Passos
+1. Clone este repositório:
+    ```bash
+    git clone https://github.com/alexsandropsilva/port_scan_python/
+    cd port_scan_python
+    ```
 
-1. Clone o repositório:
+2. Execute o script:
+    ```bash
+    python3 port_scan.py
+    ```
 
-   ```bash
-   git clone https://github.com/alexsandropsilva/port_scan_python.git
+3. Siga as instruções no terminal para escolher uma opção de varredura.
 
-2. Entre no diretório do projeto:
-   ```bash
-   cd port_scan_python
+## Contribuições
 
-3. Instale as dependências necessárias:
-   ```bash
-   pip install python-nmap
-
-## 🚀 Uso
-
-1. Execute o script com:
-   ```bash
-   sudo python3 port_scan.py
-   
-Siga as instruções no terminal para escolher entre a varredura de portas ou a varredura de rede.
-
-## 🤝 Contribuições
-Contribuições são bem-vindas! Se você encontrar um bug ou quiser adicionar uma nova funcionalidade, sinta-se à vontade para criar uma issue ou abrir um pull request.
+Contribuições são bem-vindas! Por favor, crie uma issue ou faça um pull request.
